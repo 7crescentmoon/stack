@@ -252,7 +252,7 @@ int evaluate(char prefix[]) {
 
 int main() {
 	//string bahan (inputan)
-	string target = "(9-2)+2*^5";
+	string target = "(9+6)*2+9";
 
 	//parse string inputan ke char
 	parseToChar(target);
